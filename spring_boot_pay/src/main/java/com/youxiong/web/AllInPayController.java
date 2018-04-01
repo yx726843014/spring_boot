@@ -89,14 +89,6 @@ public class AllInPayController {
         return "支付成功!";
     }
 
-    /**
-     * 获取请求参数中所有的信息
-     * 当商户上送frontUrl或backUrl地址中带有参数信息的时候，
-     * 这种方式会将url地址中的参数读到map中，会导多出来这些信息从而致验签失败，这个时候可以自行修改过滤掉url中的参数或者使用getAllRequestParamStream方法。
-     *
-     * @param request
-     * @return
-     */
     public static Map<String, String> getAllRequestParam(
             final HttpServletRequest request) {
         Map<String, String> res = new HashMap<String, String>();
