@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/spring_boot_mongo/spring_boot_mongo.iml" filepath="$PROJECT_DIR$/spring_boot_mongo/spring_boot_mongo.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring_boot_pay/spring_boot_pay.iml" filepath="$PROJECT_DIR$/spring_boot_pay/spring_boot_pay.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring_boot_project.iml" filepath="$PROJECT_DIR$/spring_boot_project.iml" />
     </modules>
