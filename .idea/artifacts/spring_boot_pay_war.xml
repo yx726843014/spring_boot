@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="spring_boot_pay:war">
+    <output-path>$PROJECT_DIR$/spring_boot_pay/target</output-path>
+    <root id="archive" name="spring_boot_pay-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="spring_boot_pay:war exploded" />
+    </root>
+  </artifact>
+</component>
