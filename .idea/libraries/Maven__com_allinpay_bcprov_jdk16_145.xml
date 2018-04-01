@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.allinpay:bcprov-jdk16:145">
+    <CLASSES>
+      <root url="jar://D:/apache-maven-3.5.0/repository/com/allinpay/bcprov-jdk16/145/bcprov-jdk16-145.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://D:/apache-maven-3.5.0/repository/com/allinpay/bcprov-jdk16/145/bcprov-jdk16-145-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://D:/apache-maven-3.5.0/repository/com/allinpay/bcprov-jdk16/145/bcprov-jdk16-145-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
