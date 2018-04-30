@@ -23,7 +23,7 @@ public class SwaggerConfig {
                 .apiInfo(apiInfo())
                 .select()
                 //为当前包路径
-                .apis(RequestHandlerSelectors.basePackage("com.youxiong.web"))
+                .apis(RequestHandlerSelectors.basePackage("com.youxiong.controller"))
                 .paths(PathSelectors.any())
                 .build();
     }

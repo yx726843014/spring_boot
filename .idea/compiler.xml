@@ -7,13 +7,17 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="spring_boot_mongo" />
+        <module name="spring_boot_netty" />
         <module name="spring_boot_pay" />
+        <module name="spring_boot_redis" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="spring_boot_mongo" target="1.5" />
+      <module name="spring_boot_netty" target="1.5" />
       <module name="spring_boot_pay" target="1.5" />
       <module name="spring_boot_project" target="1.5" />
+      <module name="spring_boot_redis" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

@@ -11,6 +11,8 @@
     <modules>
         <module>spring_boot_pay</module>
         <module>spring_boot_mongo</module>
+        <module>spring_boot_redis</module>
+        <module>spring_boot_netty</module>
     </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
