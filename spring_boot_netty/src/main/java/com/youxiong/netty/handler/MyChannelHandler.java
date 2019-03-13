@@ -52,7 +52,6 @@ public class MyChannelHandler extends SimpleChannelInboundHandler<Object> {
     @Override
     public void exceptionCaught(ChannelHandlerContext ctx, Throwable cause) throws Exception {
         LOGGER.error("【系统异常】======>"+cause.toString());
-        LOGGER.error(cause.getMessage());
         ctx.close();
         ctx.channel().close();
     }
