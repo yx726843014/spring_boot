@@ -137,7 +137,7 @@ public class MyChannelHandler extends SimpleChannelInboundHandler<Object> {
         //判断msg 是哪一种类型  分别做出不同的反应
         if(msg instanceof CloseWebSocketFrame){
             LOGGER.info("【关闭】");
-            handshaker.close(ctx.channel(), (CloseWebSocketFrame) msg);
+            handshaker.close(ctx.channel(), (CloseWebSocketFrame) msg.retain());
             return ;
         }
         if(msg instanceof PingWebSocketFrame){
